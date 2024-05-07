@@ -38,16 +38,16 @@ def change_pitch(audio_bytes, octaves=-0.1):
 def main():
     st.markdown('''## Audio Processing Application
 
-    Welcome to the Audio Processing Application! This app allows you to upload an audio file, process it using the Eleven Labs Speech-to-Speech API, and adjust its pitch using Pydub.
-    
-    ### Instructions:
-    
-    1. **Enter Password**: Start by entering the password provided to you. This is required to access the app functionalities.
-    2. **Upload Audio File**: Click on the "Choose an audio file" button to upload your audio file. Supported formats include MP3, WAV, OGG, and M4A.
-    3. **Adjust Pitch**: Use the slider to choose how much you want to shift the pitch of the audio. You can select any value between -1.0 and 1.0 octaves.
-    4. **Processing**: After uploading your file, the app will first convert the speech using the selected voice model from Eleven Labs. Then, it will apply the pitch shift you selected.
-    5. **Listen and Download**: You can listen to both the original processed audio and the pitch-shifted version directly in the app. Use the "Download Processed Audio" button to save the pitch-shifted audio to your device.
-    ''')
+Welcome to the Audio Processing Application! This app allows you to upload an audio file, process it using the Eleven Labs Speech-to-Speech API, and adjust its pitch using Pydub.
+
+### Instructions:
+
+1. **Enter Password**: Start by entering the password provided to you. This is required to access the app functionalities.
+2. **Upload Audio File**: Click on the "Choose an audio file" button to upload your audio file. Supported formats include MP3, WAV, OGG, and M4A.
+3. **Adjust Pitch**: Use the slider to choose how much you want to shift the pitch of the audio. You can select any value between -1.0 and 1.0 octaves.
+4. **Processing**: After uploading your file, the app will first convert the speech using the selected voice model from Eleven Labs. Then, it will apply the pitch shift you selected.
+5. **Listen and Download**: You can listen to both the original processed audio and the pitch-shifted version directly in the app. Use the "Download Processed Audio" button to save the pitch-shifted audio to your device.
+''')
 
     # Password protection
     correct_password = st.secrets["password"]
