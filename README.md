@@ -10,7 +10,7 @@ Welcome to the Audio Processing Application repository! This project allows user
 
 ## Features
 
-- Upload audio files in various formats (MP3, WAV, OGG, M4A).
+- Upload audio files in various formats (MP3, WAV, OGG, M4A, OPUS).
 - Process audio using the Eleven Labs API to convert speech using a selected voice model.
 - Adjust the pitch of the audio file using Pydub.
 - Listen to the processed audio directly in the web application.
