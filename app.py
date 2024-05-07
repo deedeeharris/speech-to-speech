@@ -59,7 +59,7 @@ Welcome to the Audio Processing Application! This app allows you to upload an au
     
     st.write("Upload an audio file to process it with Eleven Labs Speech-to-Speech and adjust its pitch using Pydub.")
 
-    uploaded_file = st.file_uploader("Choose an audio file", type=['mp3', 'wav', 'ogg', 'm4a'])
+    uploaded_file = st.file_uploader("Choose an audio file", type=['mp3', 'wav', 'ogg', 'm4a', 'opus'])
 
     if uploaded_file is not None:
         with st.spinner("Processing audio..."):
