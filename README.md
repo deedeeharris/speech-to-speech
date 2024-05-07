@@ -8,31 +8,6 @@ Welcome to the Audio Processing Application repository! This project allows user
 
 - [LinkedIn Profile](https://www.linkedin.com/in/yedidya-harris/)
 
-## Installation
-
-Before you can run this application, you'll need to install several dependencies. Here's how you can set up your environment:
-
-### Prerequisites
-
-- Python 3.6 or higher
-- pip
-- FFmpeg (for handling audio files)
-
-### Steps
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-github-username/your-repository-name.git
-   cd your-repository-name
-   ```
-
-2. Install the required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ensure FFmpeg is installed on your system. If it's not installed, refer to the FFmpeg installation guide for your operating system.
-
 ## Usage
 
 To run the application, navigate to the project directory and run the following command:
