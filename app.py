@@ -48,6 +48,8 @@ Welcome to the Audio Processing Application! This app allows you to upload an au
 3. **Adjust Pitch**: Use the slider to choose how much you want to shift the pitch of the audio. You can select any value between -1.0 and 1.0 octaves.
 4. **Processing**: After uploading your file, the app will first convert the speech using the selected voice model from Eleven Labs. Then, it will apply the pitch shift you selected.
 5. **Listen and Download**: You can listen to both the original processed audio and the pitch-shifted version directly in the app. Use the "Download Processed Audio" button to save the pitch-shifted audio to your device.
+
+This app was created by [Yedidya Harris](https://www.linkedin.com/in/yedidya-harris/).
 ''')
 
     # Password protection
