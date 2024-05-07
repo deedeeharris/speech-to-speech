@@ -36,6 +36,7 @@ def change_pitch(audio_bytes, octaves=-0.1):
     return low_pitch_audio
 
 def main():
+    st.set_page_config(page_title="Speech to Speech", page_icon="🎤")
     st.markdown('''## Audio Processing Application
 
 Welcome to the Audio Processing Application! This app allows you to upload an audio file, process it using the Eleven Labs Speech-to-Speech API, and adjust its pitch using Pydub.
